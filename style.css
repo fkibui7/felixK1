@@ -278,7 +278,7 @@ section{
     position: relative;
 }
 
-.about-container{
+.about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -290,17 +290,21 @@ section{
     flex-direction: column;
 }
 
-.about-container, .about-details-container {
+.about-containers, .about-details-container {
     display: flex;
 
 }
 
 .about-pic {
     border-radius: 2rem;
+    height: 450px;
+    width: 450px;
+
 }
 
 .arrow {
     position: absolute;
-    right: -5rem;
+    right: -7rem;
     bottom: 2.5rem;
+    height: 4rem;
 }
