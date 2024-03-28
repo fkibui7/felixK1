@@ -409,7 +409,7 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 75vh;
 }
 
 .contact-info-upper-container {
@@ -437,4 +437,15 @@ section{
 
 .contact-icon {
     cursor: default;
+}
+
+/*FOOTER*/
+
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }
